@@ -1,4 +1,4 @@
-# FRONT-END COM CRUD Angular 12 
+# FRONT-END COM ANGULAR 12 
 Projeto pratico de front-end com Angular 12
 ```
 ## Front-end Angular 
