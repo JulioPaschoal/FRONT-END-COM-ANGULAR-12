@@ -1,0 +1,44 @@
+<div class="banner">
+    <div class="content">
+        <h1 class="mb-3">Manter Uma Alimentação  <br/> Saudável no Dia a Dia.</h1>
+        <a routerLink="menu">PEÇA AGORA<i class="bi bi-arrow-right"></i></a>
+    </div>
+</div>
+
+<div class="container mt-4 mb-5">
+    <h1 class="text-center">Como conseguir <span  class="highlight" > comida fresca</span></h1>
+    <div class="row mt-5">
+        <div class="col-lg-4 mt-2">
+            <div class="foodBox">
+                <h1>1</h1>
+                <p>Selecionar Comida</p>
+            </div>      
+        </div>
+        <div class="col-lg-4 mt-2">
+            <div class="foodBox">
+                <h1>2</h1>
+                <p>Preencha Os Detalhes</p>
+            </div>
+        </div>
+        <div class="col-lg-4 mt-2">
+            <div class="foodBox">
+                <h1>3</h1>
+                <p>Seu Pedido Entregue Em Minutos</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-4 mb-4">
+    <h1 class="text-center">Comida Favorita Dos <span  class="highlight">Clientes</span></h1>
+    <div class="row">
+        <div class="col-lg-3 mt-3" *ngFor="let food of foodData; index as i">
+            <div class="foodbox" *ngIf="i<=3">
+                <img src="{{food.foodImg}}">
+                <h1>{{food.foodName}}</h1>
+                <p>{{food.foodPrice | currency:'BRL'}}</p>
+            </div>
+        </div>
+    </div>
+    <a routerLink="menu" class="viewmorebtn">Ver Mais<i class="bi bi-arrow-right"></i></a>
+</div>

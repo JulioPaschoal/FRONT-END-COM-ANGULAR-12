@@ -1,2 +1,15 @@
-# FRONT-END-COM-CRUD-Angular-12
+# FRONT-END COM CRUD Angular 12 
 Projeto pratico de front-end com Angular 12
+```
+## Front-end Angular 
+
+
+```
+
+```
+cd webSite
+npm install
+npm start
+ 
+
+```
