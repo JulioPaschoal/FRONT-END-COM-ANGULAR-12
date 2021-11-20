@@ -8,7 +8,7 @@ Front-end Angular
 ```
 
 ```
-cd webSite
+cd Front-End
 npm install
 npm start
  
